@@ -41,8 +41,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: './build/reports/gatling'
           keep_files: true
-          user_name: elmer-zapata-mojix-com
-          user_email: elmer.zapata@mojix.com
+          user_name: Quino92
+          user_email: jose.rioja.22@gmail.com
           publish_branch: gh_page
       - name: Deploy report to Github Pages
         if: always()
