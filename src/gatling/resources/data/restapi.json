@@ -1,0 +1,12 @@
+[
+    {"name": "name1", "data": {"year": "2014", "price": "1849.99", "model": "model1", "color": "blue"}},
+    {"name": "name2", "data": {"year": "2015", "price": "1540.99", "model": "model2", "color": "red"}},
+    {"name": "name3", "data": {"year": "2016", "price": "3561.99", "model": "model3", "color": "purple"}},
+    {"name": "name4", "data": {"year": "2017", "price": "1247.99", "model": "model4", "color": "yellow"}},
+    {"name": "name5", "data": {"year": "2018", "price": "654.99", "model": "model5", "color": "green"}},
+    {"name": "name6", "data": {"year": "2019", "price": "742.99", "model": "model6", "color": "black"}},
+    {"name": "name7", "data": {"year": "2020", "price": "9654.99", "model": "model7", "color": "white"}},
+    {"name": "name8", "data": {"year": "2021", "price": "5624.99", "model": "model8", "color": "pink"}},
+    {"name": "name9", "data": {"year": "2022", "price": "6547.99", "model": "model9", "color": "orange"}},
+    {"name": "name10", "data": {"year": "2023", "price": "2849.99", "model": "model10", "color": "brown"}}
+]
