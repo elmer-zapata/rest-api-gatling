@@ -7,7 +7,7 @@ on:
         type: string
         description: 'testSuite'
         required: true
-        default: 'restApi.ResrApiTest'
+        default: 'restApi.RestApiTest'
       concurrent:
         type: string
         description: 'Quantity of users'
