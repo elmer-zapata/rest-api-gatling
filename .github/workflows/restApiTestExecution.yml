@@ -15,7 +15,7 @@ on:
         default: '10'
 
 jobs:
-  execpokemonapi:
+  execrestapi:
     runs-on: ubuntu-latest
     name: Execution Performance Rest API
     steps:
