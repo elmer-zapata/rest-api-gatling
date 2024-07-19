@@ -31,10 +31,10 @@ public class RestApiTest extends Simulation {
                     .header(contentHeader, applicationHeader)
                     .body(StringBody(
                             """
-                               {"name": "#{name}",
-                               "data": {"year": "#{data.year}",
-                               "price": "#{data.price}",
-                               "model": "#{data.model}"}}
+                               {\"name\": \"#{name}\",
+                               \"data\": {\"year\": "#{data.year}\",
+                               \"price\": \"#{data.price}\",
+                               \"model\": \"#{data.model}\"}}
                               """
                     )).asJson()
                     .check(jmesPath("id").find().saveAs("id"))
@@ -56,11 +56,11 @@ public class RestApiTest extends Simulation {
                     .header(contentHeader, applicationHeader)
                     .body(StringBody(
                             """
-                               {"name": "#{name}",
-                               "data": {"year": "#{data.year}",
-                               "price": "#{data.price}",
-                               "model": "#{data.model}",
-                               "color": "#{data.color}"}}
+                               {\"name\": \"#{name}\",
+                               \"data\": {\"year\": \"#{data.year}\",
+                               \"price\": \"#{data.price}\",
+                               \"model\": \"#{data.model}\",
+                               \"color\": \"#{data.color}\"}}
                               """
                     )).asJson()
                     .check(bodyString().saveAs("body"))
